@@ -7,16 +7,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Cricketscorelist {
 
 	public static void main(String[] args) {
-
-		WebDriverManager.chromedriver().setup();
+        System.setProperty("webdriver.chrome.driver", "F:\\Vishnu Tej\\chromedriver.exe");
+		//WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.espncricinfo.com/series/19430/scorecard/1188628/west-indies-vs-india-1st-test-icc-world-test-championship-2019-2021");
-		
+		  
 		//h2[text()='India 1st Innings ']
 		//(//span[contains(text(),'Scorecard')])[3]--->scorecardlink
 		driver.findElement(By.xpath("//h2[text()='India 1st Innings ']")).click();

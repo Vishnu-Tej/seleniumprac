@@ -4,10 +4,10 @@
 <suite name="Practise Test" verbose="3">
 
 
-	<test name="Sanity Test for practice">
+	<test name="Test for practice">
 		<classes>
-			<class name="com.qa.practise.tests.Cricketscoreboard" />
-		<class name="com.qa.practise.tests.Cricketscorelist" />
+			<class name="selenium.Cricketscorelist" />
+		<class name="selenium.Logincheck" />
 		</classes>
 	</test>
 </suite>
