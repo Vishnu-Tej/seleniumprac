@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Practise Test" duration-ms="15" started-at="2019-09-27T07:13:39Z" finished-at="2019-09-27T07:13:39Z">
+  <suite name="Practise Test" duration-ms="73170" started-at="2019-09-29T08:46:34Z" finished-at="2019-09-29T08:47:47Z">
     <groups>
     </groups>
-    <test name="Sanity Test for practice" duration-ms="15" started-at="2019-09-27T07:13:39Z" finished-at="2019-09-27T07:13:39Z">
-    </test> <!-- Sanity Test for practice -->
+    <test name="Test for practice" duration-ms="73170" started-at="2019-09-29T08:46:34Z" finished-at="2019-09-29T08:47:47Z">
+      <class name="selenium.Cricketscore">
+        <test-method status="PASS" signature="scorelist()[pri:0, instance:selenium.Cricketscore@34a1d21f]" name="scorelist" duration-ms="52335" started-at="2019-09-29T14:16:34Z" finished-at="2019-09-29T14:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scorelist -->
+      </class> <!-- selenium.Cricketscore -->
+      <class name="selenium.Logincheck">
+        <test-method status="PASS" signature="login()[pri:0, instance:selenium.Logincheck@2c104774]" name="login" duration-ms="20350" started-at="2019-09-29T14:17:27Z" finished-at="2019-09-29T14:17:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- selenium.Logincheck -->
+    </test> <!-- Test for practice -->
   </suite> <!-- Practise Test -->
 </testng-results>

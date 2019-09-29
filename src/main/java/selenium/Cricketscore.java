@@ -6,13 +6,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-//import io.github.bonigarcia.wdm.WebDriverManager;
-
-public class Cricketscorelist {
-
-	public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "F:\\Vishnu Tej\\chromedriver.exe");
+public class Cricketscore {
+	@Test
+	public void scorelist(){
+		System.setProperty("webdriver.chrome.driver", "F:\\Vishnu Tej\\chromedriver.exe");
 		//WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.espncricinfo.com/series/19430/scorecard/1188628/west-indies-vs-india-1st-test-icc-world-test-championship-2019-2021");

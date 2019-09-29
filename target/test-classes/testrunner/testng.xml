@@ -6,7 +6,7 @@
 
 	<test name="Test for practice">
 		<classes>
-			<class name="selenium.Cricketscorelist" />
+			<class name="selenium.Cricketscore" />
 		<class name="selenium.Logincheck" />
 		</classes>
 	</test>
