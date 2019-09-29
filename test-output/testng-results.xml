@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Practise Test" duration-ms="73170" started-at="2019-09-29T08:46:34Z" finished-at="2019-09-29T08:47:47Z">
+  <suite name="Practise Test" duration-ms="54314" started-at="2019-09-29T13:42:35Z" finished-at="2019-09-29T13:43:29Z">
     <groups>
     </groups>
-    <test name="Test for practice" duration-ms="73170" started-at="2019-09-29T08:46:34Z" finished-at="2019-09-29T08:47:47Z">
+    <test name="Test for practice" duration-ms="54314" started-at="2019-09-29T13:42:35Z" finished-at="2019-09-29T13:43:29Z">
       <class name="selenium.Cricketscore">
-        <test-method status="PASS" signature="scorelist()[pri:0, instance:selenium.Cricketscore@34a1d21f]" name="scorelist" duration-ms="52335" started-at="2019-09-29T14:16:34Z" finished-at="2019-09-29T14:17:27Z">
+        <test-method status="PASS" signature="scorelist()[pri:0, instance:selenium.Cricketscore@6ca0256d]" name="scorelist" duration-ms="35514" started-at="2019-09-29T19:12:35Z" finished-at="2019-09-29T19:13:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scorelist -->
       </class> <!-- selenium.Cricketscore -->
       <class name="selenium.Logincheck">
-        <test-method status="PASS" signature="login()[pri:0, instance:selenium.Logincheck@2c104774]" name="login" duration-ms="20350" started-at="2019-09-29T14:17:27Z" finished-at="2019-09-29T14:17:47Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:selenium.Logincheck@77602954]" name="login" duration-ms="17755" started-at="2019-09-29T19:13:11Z" finished-at="2019-09-29T19:13:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
