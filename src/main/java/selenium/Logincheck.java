@@ -5,12 +5,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Logincheck {
+	
 	@Test
 	public void login()
 	{
-		System.setProperty("webdriver.chrome.driver", "F:\\Vishnu Tej\\chromedriver.exe");
-		//WebDriverManager.chromedriver().setup();
+		//System.setProperty("webdriver.chrome.driver", "F:\\Vishnu Tej\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://app.hubspot.com/login");
 		try {

@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Practise Test" duration-ms="54314" started-at="2019-09-29T13:42:35Z" finished-at="2019-09-29T13:43:29Z">
+  <suite name="Default suite" duration-ms="29717" started-at="2021-05-11T14:12:15Z" finished-at="2021-05-11T14:12:45Z">
     <groups>
     </groups>
-    <test name="Test for practice" duration-ms="54314" started-at="2019-09-29T13:42:35Z" finished-at="2019-09-29T13:43:29Z">
-      <class name="selenium.Cricketscore">
-        <test-method status="PASS" signature="scorelist()[pri:0, instance:selenium.Cricketscore@6ca0256d]" name="scorelist" duration-ms="35514" started-at="2019-09-29T19:12:35Z" finished-at="2019-09-29T19:13:11Z">
+    <test name="Default test" duration-ms="29717" started-at="2021-05-11T14:12:15Z" finished-at="2021-05-11T14:12:45Z">
+      <class name="Tasks.Flipkart">
+        <test-method status="PASS" signature="mobile()[pri:0, instance:Tasks.Flipkart@78c1a023]" name="mobile" duration-ms="28947" started-at="2021-05-11T19:42:15Z" finished-at="2021-05-11T19:42:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scorelist -->
-      </class> <!-- selenium.Cricketscore -->
-      <class name="selenium.Logincheck">
-        <test-method status="PASS" signature="login()[pri:0, instance:selenium.Logincheck@77602954]" name="login" duration-ms="17755" started-at="2019-09-29T19:13:11Z" finished-at="2019-09-29T19:13:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- selenium.Logincheck -->
-    </test> <!-- Test for practice -->
-  </suite> <!-- Practise Test -->
+        </test-method> <!-- mobile -->
+      </class> <!-- Tasks.Flipkart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

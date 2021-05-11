@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Practise Test]">
+  <test name="Test for practice(failed)">
+    <classes>
+      <class name="selenium.Cricketscore">
+        <methods>
+          <include name="scorelist"/>
+        </methods>
+      </class> <!-- selenium.Cricketscore -->
+    </classes>
+  </test> <!-- Test for practice(failed) -->
+</suite> <!-- Failed suite [Practise Test] -->
