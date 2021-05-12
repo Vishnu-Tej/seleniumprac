@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Tasks.Flipkart">
+      <class name="Tasks.Flipkarrt">
         <methods>
           <include name="mobile"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- Tasks.Flipkart -->
+      </class> <!-- Tasks.Flipkarrt -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

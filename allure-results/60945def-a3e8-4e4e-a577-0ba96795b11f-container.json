@@ -1,0 +1,1 @@
+{"uuid":"60945def-a3e8-4e4e-a577-0ba96795b11f","name":"Tasks.Flipkart.setup","children":["0e485a45-56ca-4dcf-82dc-bbccf96daecf"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1620801348748,"stop":1620801359654}],"afters":[],"links":[],"start":1620801348748,"stop":1620801359654}
