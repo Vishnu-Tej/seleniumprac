@@ -13,7 +13,6 @@ public class util {
 	public static String browser;
 	public static Properties prop;
 	
-	
 	public static void launchBrowser(){	
 		
 		//String browser = prop.getProperty("browser");
